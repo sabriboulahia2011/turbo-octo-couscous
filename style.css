@@ -1,0 +1,39 @@
+table, th, td{
+    border: 1px solid black;
+}
+body{
+    background: url(download.png) repeat-y;
+}
+p{
+    background-color: rgb(255, 205, 205);
+    display: inline;
+    text-align:start
+}
+ol, ul{
+    background-color: hotpink;
+}
+h2{
+    background-color: blueviolet;
+    display: inline;
+    font-size: medium;
+}
+form{
+    font-size: large;
+}
+table{
+    font-size: medium;
+    background-color: rgb(133, 187, 211);
+}
+caption{
+    font-size: large;
+    background-color: rgb(7, 191, 247);
+}
+li.code, a.code{
+    color: hotpink;
+}
+li.code, a.code:hover{
+    color: blue;
+}
+p.code{
+    display: inline;
+}

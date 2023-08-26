@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar">
+<html>
+    <head>
+        <title> دورة HTML </title> 
+       <link rel="stylesheet" href="style.css">
+       <script src="/pr1/pro.js"></script>
+       <style>
+        p{
+            font-size: 20px;
+        }
+       </style>
+    </head>
+    <body dir="rtl">
+        <h1> دورة HTML </h1><!---title--> 
+        <h2> وصف الدورة </h2><br><!---sub title-->
+        <p class="code"> <!---Description-->
+            لغة HTML هي طريقة لكتابة وهيكلة صفحات الويب، ولاتعتبر HTML لغة برمجية بالمعنى الفعلي بل هي لغة وصفيّة،
+        </p> <br>
+        <p class="code">
+            أي أنها تستخدم لوصف الصفحة وتوزيع وترتيب محتواها من نصوص وروابط وصور ومقاطع فيديو وما إلى ذلك، وهي المكون 
+        </p><br>
+        <p class="code">
+            الرئيسي لأي موقع ويب، تستخدم HTML مايسمى بالوسوم أو Tags وهي عبارة عن رموز لكل منها مهمة خاصة يقوم بها،
+        </p><br>
+        <p class="code">
+            فمنها ما يقوم بعرض العنوان ومنها ما يقوم بعرض النصوص ومنها ما يقوم بعرض الصور أو الروابط أو مقاطع الفيديو وهكذا،
+        </p><br>
+        <p class="code">
+            والمتصفح يفهم هذه الرموز أو الوسوم ويعرضها بالشكل المحدد والمطلوب.
+        </p><br>
+        <p>
+            <b> 
+                مواعيد المحاضرات يوميا :
+            </b><br>
+        من الساعة : 8:00 <sub>am</sub> إلى الساعة : 11:00 <sub>am</sub>
+        </p> <br>
+        <p>
+            <b> المستويات في الدورة :</b> <br> 1<sup>st</sup> level : أساسيات html <br> 2<sup>nd</sup> level : مفاهيم متقدمة في  html
+        </p> <hr> 
+        <h2> أهداف هذه الدورة </h2>
+        <ol>
+            <li> التعرف على مفهوم HTML </li>
+            <li> تعلّم كل TAG والغرض من إستخدامه </li>
+            <li> طرق إضافة النصوص , الفيديوهات وغيرها من المحتويات المعتادة في صفحات الويب </li>
+        </ol>
+        <h2> متطلبات الدورة </h2>
+        <ul>
+            <li> متصفح (سفاري / جوجل كروم) </li>
+            <li class="code"> <a href="https://code.visualstudio.com/Download"> محرر نصوص </a> </li>
+        </ul>
+        <p>
+            ماذا تنتظر ؟ <A class="code" href="https://satr.codes/courses/CATspNvVjT/view">سجّل الآن وانتفع بتجربة مجانية مدى الحياة!</A> أو يمكنك التسجيل بواسطة النموذج أدناه
+        </p> <hr> 
+        <p> مقدمة عن HTML  </p> <br> <iframe src="https://player.vimeo.com/video/658860137" width="565" height="315" allowfullscreen></iframe> 
+            <table>
+                <caption> جدول أماكن المحاضرات </caption>
+                <tr>
+                    <th> اليوم </th>
+                    <th> المكان </th>
+                </tr>
+                <tr>
+                    <td> الأحد ولإثنين </td>
+                    <td> Class A  </td>
+                </tr>
+                <tr>
+                    <td> الثلاثاء والأربعاء </td>
+                    <td> Class B  </td>
+                </tr>
+                <tr>
+                    <td colspan="2"> الخميس 
+                     عن بعد </td>
+                </tr>
+            </table>  
+            <hr>
+            <h2>نموذج الإنضمام للدورة</h2>
+            <form action="thanks.html">
+                <label for="name">إسم المنضم بالكامل</label>
+                <input type="text" id="name"><br>
+                <p>الجنس</p><br>
+                <label for="male">ذكر</label>
+                <input type="radio" id="male" name="gender">
+                <label for="female">أنثى</label>
+                <input type="radio" id="female" name="gender">
+                <br>
+                <p> من أين سمعت عن HTML؟ </p><br>
+                <label for="freind">صديق</label>
+                <input type="checkbox" id="freind" name="freind"><br>
+                <label for="relatives">من أقاربك</label>
+                <input type="checkbox" id="relatives" name="relatives"><br>
+                <label for="books">الكتب</label>
+                <input type="checkbox" id="books" name="books"><br>
+                <label for="social media">مواقع التواصل الإجتماعي</label>
+                <input type="checkbox" id="social media" name="social media"><br><br>
+                <label for="city">إختر مدينتك</label><br>
+                <select name="city" id="city">
+                    <option value="none">--------</option>
+                    <option value="Al Wukair">الوكير</option>
+                    <option value="Al Wakrah">الوكرة</option>
+                    <option value="Doha">الدوحة</option>  
+                </select><br><br><br>
+                <input type="submit" value="إنضم الآن!" name="join" > 
+            </form>
+    </body>
+</html>
